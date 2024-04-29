@@ -32,6 +32,7 @@ public class ProjectSecurityConfig {
                     .requestMatchers("/contact").permitAll()
                     .requestMatchers("/saveMsg").permitAll()
                     .requestMatchers("/courses").permitAll()
+                    .requestMatchers("/courselist").permitAll()
                     .requestMatchers("/about").permitAll()
                     .requestMatchers("/assets/**").permitAll()
                     .requestMatchers("/login").permitAll()
